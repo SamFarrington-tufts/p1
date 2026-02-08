@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel='stylesheet' href='styles.css'>
+    <style type = "text/css">
+        #part ul{list-style-type: none;}
+        #part ul li{font-size: 20px; display: inline-block;}
+        /*Centers the page hero and makes the font bigger*/
+        h1{text-align: center; font-size: 70px; font-weight: 700; padding: 40px 24px;}
+        #bio_wrap p{font-size: 20px;}
+
+        /*Creates a box for the bio content*/
+        #bio_1, #bio_3, #bio_5{width: 100%; padding: 30px 20px; box-sizing: border-box; padding: 90px 20px;}
+        /*Makes the bio and picture of the band member adjacent*/
+        #bio_1 .bio, #bio_1 .pic, #bio_3 .bio, #bio_3 .pic, #bio_5 .bio, #bio_5 .pic{display: inline-block; 
+                                                               vertical-align: top; box-sizing: border-box;}
+        /*Sets width and text alingment of the bio*/
+        #bio_1 .bio, #bio_3 .bio, #bio_5 .bio{width: 35%; text-align: left; margin-left: 0px; }
+        /*Sets width and of the picture and shifts it to the right*/
+        #bio_1 .pic, #bio_3 .pic, #bio_5 .pic{width: 20%; margin-left: 20%;}
+        /*Adjusts the size of the picture*/
+        #bio_1 .pic img, #bio_3 .pic img, #bio_5 .pic img{width: auto; height: 400px;}
+
+        /*Creates a box for the content with a black background and sets font color to white*/
+        #bio_2, #bio_4{width: 100%; padding: 30px 20px; box-sizing: border-box;  
+                       background-color: #000000; color: #ffffff; padding: 90px 20px;}
+        /*Makes the bio and picture of the band member adjacent*/
+        #bio_2 .bio, #bio_2 .pic, #bio_4 .bio, #bio_4 .pic{display: inline-block; vertical-align: top; box-sizing: border-box;}
+        /*Sets width and text alingment of the bio. Also shifts to the right*/
+        #bio_2 .bio, #bio_4 .bio{width: 35%; text-align: left; margin-left: 20%; margin-right:30px }
+        /*Sets width and of the picture*/
+        #bio_2 .pic, #bio_4 .pic{width: 25%; margin-right: 0;}
+        /*Adjusts the size of the picture*/
+        #bio_2 .pic img, #bio_4 .pic img{width: auto; height: 400px;}
+
+    </style>
+    <meta charset="utf-8">
+    <title>About Us</title>
+</head>
+
+<body>
+    <main>
+        <div id = "nav">
+            <ul>
+                <li class = 'logo'><a href = 'home.html'>OneCityBlock</a></li>
+                <li><a href = 'about.html'>About Us</a></li>
+                <li><a href = 'setlist.html'>Setlist</a></li>
+                <li><a href = 'packages.html'>Packages</a></li>
+                <li><a href = 'review_faq.html'>Reviews and FAQs</a></li>
+                <li><a href = 'contact.html'>Contact Us</a></li>
+            </ul>
+        </div>
+        <h1>Meet the Band</h1>
+
+        <div id="bio_wrap">
+            <div id="bio_1">
+                <div class="pic">
+                    <img src="memb1.jpg">
+                </div>
+
+                <div class="bio">
+                    <h2>Keys - Marcus "Keys" Lane (with OneCityBlock 3 years) </h2>
+                    <p>Marcus studied music production and jazz piano, but fell
+                    in love with pop/rock gigs because the energy is unbeatable. 
+                    In OneCityBlock he builds the big synth textures, handles 
+                    intros/outros so songs flow smoothly, and adds harmony vocals 
+                    that thicken the choruses.</p>
+                </div>
+            </div>
+
+            <div id="bio_2">
+                <div class="bio">
+                    <h2>Lead Vocals - Emma Rivers (with OneCityBlock 2 years)</h2>
+                    <p>Emma grew up singing in school shows and local acoustic 
+                        nights before jumping into full-band performances. She's the 
+                        crowd-connection specialist—big choruses, clean runs, and the 
+                        kind of stage presence that keeps everyone singing along.</p>
+                </div>
+
+                <div class="pic">
+                    <img src="memb3.jpg">
+                </div>
+            </div>
+
+            <div id="bio_3">
+                <div class="pic">
+                    <img src="memb5.jpg">
+                </div>
+
+                <div class="bio">
+                    <h2>Lead Singer / MC - Evan Cole (with OneCityBlock 4 years)</h2>
+                    <p>Evan started performing in small cover bands in high school 
+                        and never stopped—he loves reading the room and choosing the 
+                        right song at the right time. In OneCityBlock he leads vocals, 
+                        handles announcements, and keeps the set moving with smooth 
+                        transitions and high energy.</p>
+                </div>
+            </div>
+
+            <div id="bio_4">
+                <div class="bio">
+                    <h2>Guitar - Nate "Riff" Bennett (with OneCityBlock 5 years)</h2>
+                    <p>Nate learned guitar by obsessing over classic rock riffs and 
+                        then expanded into modern pop tones and tight rhythm playing. 
+                        He's the “hook guy” in the band—nailing iconic intros, adding 
+                        solos when they fit, and locking in with the rhythm section 
+                        to keep the groove punchy.</p>
+                </div>
+
+                <div class="pic">
+                    <img src="memb2.jpg">
+                </div>
+            </div>
+
+            <div id="bio_5">
+                <div class="pic">
+                    <img src="memb4.jpg">
+                </div>
+
+                <div class="bio">
+                    <h2>Bass - Sam Ortega (with OneCityBlock 3 years)</h2>
+                    <p>Sam got his start playing bass in friends' garage 
+                        bands and later played in a college funk group that 
+                        taught him how to stay locked-in and danceable. In 
+                        OneCityBlock he's the foundation—tight timing, big 
+                        low-end, and the steady pocket that keeps the dance 
+                        floor moving all night.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+        
+    <div id="footer">
+        <h3>OneCityBlock</h3>
+        <p>1 Ludlow Street <br /> New York, NY</p>
+        <p>
+            <a href="mailto:onecityblock@gmail.com">onecityblock@gmail.com</a> <br />
+            <a href="tel:12125550147">(212) 555-0147</a>
+        </p>
+    </div>
+
+
+</body>
+</html>
