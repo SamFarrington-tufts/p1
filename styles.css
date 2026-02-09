@@ -14,8 +14,8 @@ body{font-family: 'Roboto', sans-serif; margin: 0;}
         text-align: center; font-size: 16px;}
 /*footer header size*/
 #footer h3{font-size: 24px;}
-/*Sets email and phone link to white without underline*/
-#footer a{color: #ffffff; text-decoration: none;}
+/*Puts email and phone links on their own line with spacing*/
+#footer a{color: #ffffff; text-decoration: none; display: block; padding: 10px 14px; margin: 4px;}
 /*Spacing between footer items*/
 #footer p{margin: 14px 0;}
 /*Underlines phone and email when hovering over them*/
