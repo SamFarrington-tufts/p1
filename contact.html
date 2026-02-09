@@ -51,14 +51,14 @@
            announcements), or vibe preferences, add them in your message.</p>
 
            <form action = '#' method='get'>
-                <label>First Name:</label><input type="text" name='first_name' id='first_name'> 
-                <label>Last Name:</label><input type="text" name='last_name' id='last_name'> 
-                <label>Email:</label><input type="email" name='email' id='user_email'> 
-                <label>Phone:</label><input type="tel" name='phone' id='user_phone'>
-                <label>Event Date:</label><input type="date" name='event_date' id='event_date'>
-                <label>Venue:</label><input type="text" name='event_venue' id='event_venue'>
-                <label>Event City:</label><input type="text" name='event_city' id='event_city'> 
-                <label>State:</label>
+                <label for="first_name">First Name:</label><input type="text" name='first_name' id='first_name'> 
+                <label for="last_name">Last Name:</label><input type="text" name='last_name' id='last_name'> 
+                <label for="user_email">Email:</label><input type="email" name='email' id='user_email'> 
+                <label for="user_phone">Phone:</label><input type="tel" name='phone' id='user_phone'>
+                <label for="event_date">Event Date:</label><input type="date" name='event_date' id='event_date'>
+                <label for="event_venue">Venue:</label><input type="text" name='event_venue' id='event_venue'>
+                <label for="event_city">Event City:</label><input type="text" name='event_city' id='event_city'> 
+                <label for="state">State:</label>
                     <select name="user_state">
                     <option value="new_jersey">New Jersey</option>
                     <option value="new_york">New York</option>
@@ -67,13 +67,13 @@
                     <option value="connecticut">Connecticut</option>
                     <option value="maryland">Maryland</option></select>
                    
-                <label>Package:</label>
+                <label for="package">Package:</label>
                     <select name="package_option">
                     <option value="classic">Classic</option>
                     <option value="premium">Premium</option>
                     </select>
 
-                <label>Additional Info:</label>
+                <label for="additional_info">Additional Info:</label>
                 <textarea id="user_text" rows="8"></textarea>
                 <div class="submit"><input type="submit" value="Submit"></div>
             </form>
