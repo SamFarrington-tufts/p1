@@ -49,6 +49,19 @@
         #faq .bttn{text-align: center; margin-top: 30px;}
         /*hover effect for faq button*/
         #faq .bttn a:hover{background-color: #000000; color: #ffffff; text-decoration: underline;}
+
+        /*Shrinks the font size and stacks the text below the images when 
+        the browser window is too small*/
+        @media(max-width:830px){
+            #rev_1, #rev_2 {display: block; padding: 40px 20px;}
+            #rev_1 .pic, #rev_2 .pic, #rev_1 .bio, #rev_2 .bio{width: 90%; display: block;}
+            #review_page h2{font-size: 20px;}
+            #review_page p{font-size: 15px;}
+            #review_page .rev{text-align: center; width: 70%; margin: 0 auto;}
+            #review_page .pic{width: 90%; margin: 0 auto; text-align: center;}
+            #review_page img{display: block; margin: 0 auto; width: 70%; 
+                          max-width: 300px; height: auto;}
+        }
     </style>
     <title>Reviews and FAQs</title>
 </head>
@@ -65,6 +78,26 @@
                 <li><a href = 'contact.html'>Contact Us</a></li>
             </ul>
         </div>
+
+        <div id="mobile_menu">
+            <div class="hamburger_icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div id = "mobile_nav">
+                <ul>
+                    <li class = 'logo'><a href = 'home.html'>OneCityBlock</a></li>
+                    <li><a href = 'about.html'>About Us</a></li>
+                    <li><a href = 'setlist.html'>Setlist</a></li>
+                    <li><a href = 'packages.html'>Packages</a></li>
+                    <li><a href = 'review_faq.html'>Reviews and FAQs</a></li>
+                    <li><a href = 'contact.html'>Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+
         <h1>What People Say</h1>
 
         <div id="review_page">

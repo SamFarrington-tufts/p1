@@ -27,6 +27,12 @@
         #setlist_page .bttn a:hover{background-color: #ffffff; color: #000000; text-decoration: underline;}
         .the80s, .the2000s, .the2010-now{padding: 40px 20px;}
 
+        /*Shrinks font size of the songs and the border spacing of the table cell when the
+        browser size is small*/
+        @media(max-width:830px){
+            #setlist_page table{font-size: 14px; border-spacing: 20px 10px};
+        }
+
     </style>
     <meta charset="utf-8">
     <title>Setlist</title>
@@ -44,6 +50,26 @@
                 <li><a href = 'contact.html'>Contact Us</a></li>
             </ul>
         </div>
+
+        <div id="mobile_menu">
+            <div class="hamburger_icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div id = "mobile_nav">
+                <ul>
+                    <li class = 'logo'><a href = 'home.html'>OneCityBlock</a></li>
+                    <li><a href = 'about.html'>About Us</a></li>
+                    <li><a href = 'setlist.html'>Setlist</a></li>
+                    <li><a href = 'packages.html'>Packages</a></li>
+                    <li><a href = 'review_faq.html'>Reviews and FAQs</a></li>
+                    <li><a href = 'contact.html'>Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+
         <h1>Band Favorites</h1>
 
         <div id ='setlist_page'>
