@@ -120,6 +120,18 @@
                         padding: 10px 14px; color: #000000; text-decoration: none;}
         /*hover effect for review button*/
         #contact .bttn a:hover{background-color: #000000; color: #ffffff; text-decoration: underline;}
+
+        /*Shrinks the font size to prevent any text from hanging off the screen when 
+        the browser window is too small*/
+        @media(max-width:830px){
+            #hero h1{font-size: 70px;}
+            #band_pic .about h2{font-size: 25px;}
+            #band_pic .about p{font-size: 15px !important;}
+            #band_pic .pic, #band_pic .about{display: block; width: 100%;}
+            #setlist table{font-size: 14px; border-spacing: 20px 10px};
+            #packages .pack1, #packages .pack2{display: block; width: 90%; margin: 20px auto; 
+                                               box-sizing: border-box;}
+        }
         
 
     </style>
@@ -139,6 +151,25 @@
                     <li><a href = 'review_faq.html'>Reviews and FAQs</a></li>
                     <li><a href = 'contact.html'>Contact Us</a></li>
                 </ul>
+            </div>
+
+            <div id="mobile_menu">
+                <div class="hamburger_icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div id = "mobile_nav">
+                    <ul>
+                        <li class = 'logo'><a href = 'home.html'>OneCityBlock</a></li>
+                        <li><a href = 'about.html'>About Us</a></li>
+                        <li><a href = 'setlist.html'>Setlist</a></li>
+                        <li><a href = 'packages.html'>Packages</a></li>
+                        <li><a href = 'review_faq.html'>Reviews and FAQs</a></li>
+                        <li><a href = 'contact.html'>Contact Us</a></li>
+                    </ul>
+                </div>
             </div>
             
             <div id = 'hero'>
@@ -187,7 +218,6 @@
                     <th>I Gotta Feeling - The Black Eyed Peas</th>
                     <th>Shut Up and Dance - WALK THE MOON</th>
                 </tr>
-
             </table>
             <div class="bttn">
                 <a href="setlist.html">View Setlist</a>
